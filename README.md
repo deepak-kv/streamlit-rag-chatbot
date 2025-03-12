@@ -33,6 +33,10 @@ streamlit-rag-chatbot/
 ✅ **Choose Llama3 Model** (`llama3-8b`, `llama3-70b`, etc.)  
 ✅ **Streamlit UI** for an interactive chat experience  
 
+<img width="1434" alt="Screenshot 2025-03-12 at 10 40 15 AM" src="https://github.com/user-attachments/assets/a32b60d6-5a6b-40db-b5d1-b2241abcdb45" />
+
+
+
 ---
 
 ## 🛋️ Installation
