@@ -27,13 +27,13 @@ streamlit-rag-chatbot/
 
 
 ## 🚀 Features
-✅ **Upload PDFs** or provide a **URL (e.g., ArXiv link)** to load documents  
-✅ **Chunk & Embed** text using **Ollama Embeddings**  
-✅ **Store & Retrieve** documents using **ChromaDB**  
-✅ **Query with Llama3** (via **Groq API**)  
-✅ **Chat Memory**   
-✅ **Choose Llama3 Model** (`llama3-8b`, `llama3-70b`, etc.)  
-✅ **Streamlit UI** for an interactive chat experience  
+ **Upload PDFs** or provide a **URL (e.g., ArXiv link)** to load documents  
+ **Chunk & Embed** text using **Ollama Embeddings**  
+ **Store & Retrieve** documents using **ChromaDB**  
+ **Query with Llama3** (via **Groq API**)  
+ **Chat Memory**   
+ **Choose Llama3 Model** (`llama3-8b`, `llama3-70b`, etc.)  
+ **Streamlit UI** for an interactive chat experience  
 
 
 
@@ -75,40 +75,4 @@ streamlit run app.py
 ```
 This will launch the chatbot in your browser at **`http://localhost:8501`**.
 
----
-
-## 🛠️ Usage Instructions
-1️⃣ **Upload a PDF** or provide an **ArXiv URL**  
-2️⃣ **The app will process the document, create embeddings, and store them in ChromaDB**  
-3️⃣ **Ask questions based on the document's content**  
-4️⃣ **Choose a different model if needed**  
-5️⃣ **Continue chatting (memory stores last 50 messages)**  
-
----
-
-## 🛠️ Technologies Used
-- **Python**
-- **Streamlit** → UI for chatbot
-- **LangChain** → LLM framework
-- **ChromaDB** → Vector storage
-- **Ollama** → Embeddings
-- **Groq API** → Llama3-based responses
-- **PyPDF** → Extract text from PDFs
-- **Requests** → Load PDFs from URLs
-- **ConversationBufferMemory** → Maintains chat history
-
----
-
-## 📌 To-Do (Future Enhancements)
-- [ ] Add support for multiple document uploads  
-- [ ] Improve UI (Dark mode, better formatting)  
-- [ ] Support other embedding models (e.g., OpenAI, Cohere)  
-- [ ] Enable multi-user chat memory  
-
----
-
-## 🤝 Contributions
-Feel free to **fork** this repo, create a **pull request**, or open an **issue** for feature suggestions!
-
----
 
