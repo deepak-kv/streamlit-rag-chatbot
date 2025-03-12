@@ -29,7 +29,7 @@ streamlit-rag-chatbot/
 ✅ **Chunk & Embed** text using **Ollama Embeddings**  
 ✅ **Store & Retrieve** documents using **ChromaDB**  
 ✅ **Query with Llama3** (via **Groq API**)  
-✅ **Chat Memory** (remembers last **50 messages**)  
+✅ **Chat Memory**   
 ✅ **Choose Llama3 Model** (`llama3-8b`, `llama3-70b`, etc.)  
 ✅ **Streamlit UI** for an interactive chat experience  
 
@@ -106,7 +106,4 @@ This will launch the chatbot in your browser at **`http://localhost:8501`**.
 Feel free to **fork** this repo, create a **pull request**, or open an **issue** for feature suggestions!
 
 ---
-
-## 🐝 License
-This project is licensed under the **MIT License**.
 
